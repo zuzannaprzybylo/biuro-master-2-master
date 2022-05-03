@@ -1,0 +1,114 @@
+.logo{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 0;
+  display: flex;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+
+ul {
+  float: left;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  
+}
+    
+ul {
+  float: left;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin: 10px;
+  padding-top: 10px;
+}
+  
+li a {
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  width: 20px;
+  width: auto;
+  text-decoration: none;
+  color: #a7c5d4;
+  background-color: #ffffff00;
+  padding: 5px 30px;
+}
+
+li a:hover {
+  background-color: #a7c5d4;
+  color: white;
+  transform: translateY(-5px) scale(1.05);
+}
+li a:active {
+  background-color: transparent;
+  color: #a7c5d4;
+  transform: translateY(5px) scale(0.95);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: 100% 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Yeseva One';
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 200px;
+}
+.center {
+  width: 600px;
+  margin: auto;
+}
+section a {
+  background: #fff;
+  color: #a7c5d4;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  font-family: 'Yeseva One';
+  font-size: 25px;
+  letter-spacing: 3px;
+  overflow: hidden;
+}
+section p {
+  padding: 14.5px;
+  font-family: 'Yeseva One', serif;
+  font-size: 18.5px;
+  text-align: center;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  background-color: #a7c5d4;
+  color: #fff;
+  overflow: hidden;
+  letter-spacing: 3px;
+  transition: 2s;
+}
+section:target p {
+  height: 15em;
+  opacity: 1;
+  padding: 10px;
+}
+body{
+  background-image: url(Group\ 1.png);
+}
