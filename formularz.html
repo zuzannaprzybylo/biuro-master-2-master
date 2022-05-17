@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularz.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.svg" alt="">
+    <nav>
+        <ul>
+        <li><a href="oferta.html">OFERTA</a></li>
+        <li><a href="onas.html">O NAS</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+        <li><a href="formularz.html">SUBSKRYBUJ</a></li>
+    </nav>
+  </div>
+  <section>
+    <form id="form" class="topBefore" action="insert.php" method="POST">
+      <input id="name" type="text" placeholder="NAME">
+      <input id="email" type="text" placeholder="E-MAIL">
+      <textarea id="message" type="text" rows="6" placeholder="MESSAGE"></textarea>
+      <input id="submit" type="submit" value="WYŚLIJ">
+    </form>
+  </section>
+</body>
+</html>
