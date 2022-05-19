@@ -1,0 +1,153 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Yeseva One';
+    margin: 0px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+    position: sticky;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+    
+li a {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    width: 20px;
+    width: auto;
+    text-decoration: none;
+    color: #a7c5d4;
+    background-color: #ffffff00;
+    padding: 5px 30px;
+}
+
+li a:hover {
+    background-color: #a7c5d4;
+    color: white;
+    transform: translateY(-5px) scale(1.05);
+}
+li a:active {
+    background-color: transparent;
+    color: #a7c5d4;
+    transform: translateY(5px) scale(0.95);
+}
+.slideshow {
+    list-style-type: none; 
+  }
+  .slideshow,
+  .slideshow:after { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 0;
+  }
+  .slideshow li span { 
+    position: absolute;
+    margin-top: -18px;
+    width: 100%;
+    height: 100%;           
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+  .slideshow li:nth-child(1) span {background-image: url("https://i.wakacje.pl/no-index/zdjecie/id/1162588067-1200-800.jpg");}
+  .slideshow li:nth-child(2) span {background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fgr%2Fvolcano-view.en-gb.html&psig=AOvVaw2qXGSKDJAvB85cTQgpb4ZH&ust=1653041403231000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjy3qKp6_cCFQAAAAAdAAAAABAZ");animation-delay: 5s; }
+  .slideshow li:nth-child(3) span {background-image: url("https://images.sembo.se/ImageService/ImageHandler.ashx?service=url&nameOfImage=https%3a%2f%2fi.travelapi.com%2fhotels%2f6000000%2f5010000%2f5005600%2f5005550%2f877b92a3_z.jpg&resizeMode=FitInside&formatSettings=jpeg(quality-90)");animation-delay: 10s; }
+  .slideshow li:nth-child(4) span {background-image: url("https://images.sembo.se/ImageService/ImageHandler.ashx?service=url&nameOfImage=https%3a%2f%2fi.travelapi.com%2fhotels%2f6000000%2f5010000%2f5005600%2f5005550%2f7d174b45_z.jpg&resizeMode=FitInside&formatSettings=jpeg(quality-90)");animation-delay: 15s; }
+  .slideshow li:nth-child(5) span {background-image: url("https://images.pexels.com/photos/3601421/pexels-photo-3601421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");animation-delay: 24s;}
+  .slideshow li:nth-child(6) span {background-image: url("https://s3-eu-central-1.amazonaws.com/zalando-lounge-frontend-blog-magazine-live/wp-content/uploads/sites/7/2020/05/Greckie-jedzenie-sałatka-z-serem-feta-scaled.jpg"); animation-delay: 20s;}
+  .slideshow li:nth-child(7) span {background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.itaka.pl%2Fblog%2Fpodroze%2Feuropa%2Fgrecja%2Fgrecka-kuchnia-11-smakow-ktore-sa-warte-grzechu%2F&psig=AOvVaw1UeGqfFkkundl4t5xu2mBa&ust=1653041206494000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjxrsOo6_cCFQAAAAAdAAAAABAK");animation-delay: 25s;}
+  .slideshow li:nth-child(8) span {background-image: url("https://i.content4travel.com/cms/img/u/desktop/se/jtrsant_0.jpg?version=220101-04");animation-delay: 30s;}
+  .slideshow li:nth-child(9) span {background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.itaka.pl%2Fwczasy%2Fgrecja%2Fsantorini%2Fsanto-miramare-resort%2CJTRSANT.html&psig=AOvVaw1nw5uK00cZAtNfxRQP_BlN&ust=1653040882639000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLiLlqen6_cCFQAAAAAdAAAAABAw");animation-delay: 35s;}
+  .slideshow li:nth-child(10) span {background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fcarter.eu%2Fblog%2Fnajlepsze-hotele-na-santorini-z-basenem-w-pokoju%2F&psig=AOvVaw1nw5uK00cZAtNfxRQP_BlN&ust=1653040882639000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLiLlqen6_cCFQAAAAAdAAAAABAc");animation-delay: 40s;}
+  @keyframes imageAnimation { 
+      0% { opacity: 0; animation-timing-function: ease-in; }
+      8% { opacity: 1; animation-timing-function: ease-out; }
+      17% { opacity: 1 }
+      25% { opacity: 0 }
+      100% { opacity: 0 }
+  }
+  @keyframes titleAnimation { 
+      0% { opacity: 0 }
+      8% { opacity: 1 }
+      17% { opacity: 1 }
+      19% { opacity: 0 }
+      100% { opacity: 0 }
+  }
+  .no-cssanimations .cb-slideshow li span {
+      opacity: 1;
+}
+
+details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+@keyframes open {
+  0% {
+      opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-top: 1px solid #a7c5d4;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    list-style: none;
+}
+
+.square {
+    width: 800px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+}
+
+header{
+    flex-direction: column;
+    color:#a7c5d4;
+    text-align: center;
+}
+
+
+
+
+
+
+

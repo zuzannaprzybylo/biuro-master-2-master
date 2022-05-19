@@ -99,9 +99,10 @@ body {
 }
 
 /* effect-1 */
-.crd--effect-1 .crd-heading {
+.crd--effect-1 .crd-heading a{
   position: relative;
   color: white;
+  text-decoration: none;
 }
 .crd--effect-1 .crd-heading span {
   color: white;
@@ -115,11 +116,13 @@ body {
 .crd--effect-1:hover .crd-heading span {
   opacity: 1;
   transform: scale(1);
+  list-style: none;
 }
 .crd--effect-1 .crd-info {
   text-align: right;
   right: 30px;
   left: unset;
+  list-style: none;
 }
 .crd--effect-1 .crd-img {
   transition: .5s;

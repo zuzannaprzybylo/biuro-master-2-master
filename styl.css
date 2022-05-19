@@ -112,7 +112,7 @@ li a:active {
     height: 300px;
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -202,8 +202,8 @@ header{
 .header-form form{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-top: 1rem;
 }
 
