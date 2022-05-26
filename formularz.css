@@ -34,19 +34,18 @@ li a {
 }
 
 li a:hover {
-    background-color: #a7c5d4;
-    color: white;
-    transform: translateY(-5px) scale(1.05);
+  background-color: #a7c5d4;
+  color: white;
+  transform: translateY(-5px) scale(1.05);
 }
 li a:active {
-    background-color: transparent;
-    color: #a7c5d4;
-    transform: translateY(5px) scale(0.95);
+  background-color: transparent;
+  color: #a7c5d4;
+  transform: translateY(5px) scale(0.95);
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
@@ -55,7 +54,6 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
@@ -64,7 +62,6 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
 
 input::placeholder, textarea::placeholder {
   color: white;
-  font-size: 1.25em;
 }
 
 input:focus::placeholder, textarea::focus::placeholder {
@@ -73,7 +70,6 @@ input:focus::placeholder, textarea::focus::placeholder {
 
 input::-ms-placeholder, textarea::-ms-placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
@@ -82,7 +78,6 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
@@ -91,7 +86,6 @@ input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-inpu
 
 input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
@@ -100,7 +94,6 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 
 input:hover::placeholder, textarea:hover::placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:hover:focus::placeholder, textarea:hover:focus::placeholder {
@@ -109,7 +102,6 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
 
 input:hover::placeholder, textarea:hover::placeholder {
   color: white;
-  font-size: 1.25rem;
 }
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
@@ -166,7 +158,7 @@ textarea {
   outline: none;
   color: #a7c5d4;
   font-family: 'Yeseva One';
-  font-size: 18px;
+  font-size: 20px;
   border: solid 4px white;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
