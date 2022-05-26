@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="formularz.css">
-
 </head>
 <body>
 <main>
@@ -17,10 +16,9 @@ include "db-connection.php";
 if(isset($_POST['submit']) && !empty($_POST['submit']))
 {
     $name = $_POST['name'];
-    $surname = $_POST['surname'];
+    $email = $_POST['surname'];
     $message = $POST['message'];
-
-    $insert = mysqli_query($db, "INSERT INTO `wiadomosci`(`imie`, `nazwisko`, `tekst`) VALUES ('$name', '$surname', '$message')");
+    $insert = mysqli_query($db, "INSERT INTO `wiadomosci`(`imie`, `email`, `tekst`) VALUES ('$name', '$email', '$message')");
 
     if(!$insert)
     {
