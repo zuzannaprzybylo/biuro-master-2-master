@@ -70,7 +70,7 @@ body {
   box-sizing: border-box;
   font-family: 'Yeseva One';
   flex-direction: column;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 200px;
 }
 .center {
@@ -87,13 +87,13 @@ section a {
   box-sizing: border-box;
   font-family: 'Yeseva One';
   font-size: 25px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   overflow: hidden;
 }
 section p {
-  padding: 14.5px;
-  font-family: 'Yeseva One', serif;
-  font-size: 18.5px;
+  padding: 5px;
+  font-family: 'Yeseva One';
+  font-size: 20px;
   text-align: center;
   overflow: hidden;
   height: 0;
@@ -101,7 +101,7 @@ section p {
   background-color: #a7c5d4;
   color: #fff;
   overflow: hidden;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   transition: 2s;
 }
 section:target p {

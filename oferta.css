@@ -1,9 +1,10 @@
 body{
-    box-sizing: border-box;
-    font-family: 'Yeseva One';
-    margin: 0px;
-    font-size: 20px;
+  box-sizing: border-box;
+  font-family: 'Yeseva One';
+  margin: 0px;
+  font-size: 20px;
 }
+
 .logo{
   position: inherit;
   width: 100%;
@@ -15,6 +16,7 @@ body{
   margin-bottom: 0;
   flex-direction: column;
 }
+
 ul {
   float: left;
   width: 100%;
@@ -27,27 +29,27 @@ ul {
   
 li a {
   position: sticky;
-    display: block;
-    float: left;
-    text-align: center;
-    font-size: 25px;
-    width: 20px;
-    width: auto;
-    text-decoration: none;
-    color: #a7c5d4;
-    background-color: #ffffff00;
-    padding: 5px 30px;
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  width: 20px;
+  width: auto;
+  text-decoration: none;
+  color: #a7c5d4;
+  background-color: #ffffff00;
+  padding: 5px 30px;
 }
 
 li a:hover {
-    background-color: #a7c5d4;
-    color: white;
-    transform: translateY(-5px) scale(1.05);
+  background-color: #a7c5d4;
+  color: white;
+  transform: translateY(-5px) scale(1.05);
 }
 li a:active {
-    background-color: transparent;
-    color: #a7c5d4;
-    transform: translateY(5px) scale(0.95);
+  background-color: transparent;
+  color: #a7c5d4;
+  transform: translateY(5px) scale(0.95);
 }
 
 *,
@@ -57,7 +59,7 @@ li a:active {
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 body {
   display: flex;
@@ -65,7 +67,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   background: white;
-  padding: 2rem;
+  padding: 1rem;
   min-height: 100vh;
   font-family: 'Yeseva One';
 }
@@ -96,9 +98,10 @@ body {
   font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-/* effect-1 */
+
 .crd--effect-1 .crd-heading a{
   position: relative;
   color: white;
@@ -130,11 +133,10 @@ body {
 .crd--effect-1:hover .crd-img {
   transform: scale(.95);
 }
-
-/* effect-2 */
 .crd--effect-2 .crd-heading {
   position: relative;
   color: white;
+  text-decoration: none;
 }
 .crd--effect-2 .crd-heading span {
   color: white;
@@ -160,8 +162,6 @@ body {
 .crd--effect-2:hover .crd-img {
   transform: scale(.95);
 }
-
-/* effect-3 */
 .crd--effect-3 .crd-heading {
   position: relative;
   color: white;
@@ -190,8 +190,6 @@ body {
 .crd--effect-3:hover .crd-img {
   transform: scale(.95);
 }
-
-/* effect-4 */
 .crd--effect-4 {
   display: block;
   width: 100%;
@@ -206,8 +204,6 @@ body {
 .crd--effect-4 .crd-heading {
   transition: .9s;
 }
-
-/* effect-5 */
 .crd--effect-5 .crd-heading {
   position: relative;
   color: white;
@@ -236,8 +232,6 @@ body {
 .crd--effect-5:hover .crd-img {
   transform: scale(.95);
 }
-
-/* effect-6 */
 .crd--effect-6 .crd-heading {
   position: relative;
   color: white;
@@ -266,8 +260,6 @@ body {
 .crd--effect-6:hover .crd-img {
   transform: scale(.95);
 }
-
-/* effect-7 */
 .crd--effect-7 .crd-heading {
   position: relative;
   color: white;

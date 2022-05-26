@@ -25,6 +25,7 @@ ul {
     justify-content: center;
     padding-left: 0;
     margin-bottom: 0;
+    padding-bottom: 20px;
 }
     
 li a {
@@ -103,6 +104,10 @@ li a:active {
       opacity: 1;
 }
 
+.details{
+    margin: 10px;
+}
+
 details[open] summary ~ * {
   animation: open 0.3s ease-in-out;
 }
@@ -132,7 +137,7 @@ details summary {
     width: 800px;
     background-color: white;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -144,6 +149,7 @@ header{
     color:#a7c5d4;
     text-align: center;
 }
+
 
 
 
