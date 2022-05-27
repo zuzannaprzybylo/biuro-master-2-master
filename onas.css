@@ -74,7 +74,7 @@ body {
   margin-bottom: 200px;
 }
 .center {
-  width: 600px;
+  width: 1000px;
   margin: auto;
 }
 section a {
@@ -89,24 +89,24 @@ section a {
   font-size: 25px;
   letter-spacing: 1px;
   overflow: hidden;
+  opacity: 90%;
 }
 section p {
-  padding: 5px;
+  padding: 10px;
   font-family: 'Yeseva One';
   font-size: 20px;
   text-align: center;
   overflow: hidden;
   height: 0;
   opacity: 0;
-  background-color: #a7c5d4;
-  color: #fff;
-  overflow: hidden;
+  background-color: #fff;
+  color: #a7c5d4;
   letter-spacing: 1px;
   transition: 2s;
 }
 section:target p {
-  height: 15em;
-  opacity: 1;
+  height: 160px;
+  opacity: 90%;
   padding: 10px;
 }
 body{

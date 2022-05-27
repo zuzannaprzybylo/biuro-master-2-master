@@ -103,11 +103,11 @@ li a:active {
 }
 
 .square {
-    width: 500px;
+    width: 550px;
     height: 250px;
     background-color: white;
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -134,6 +134,7 @@ header{
     -webkit-animation: bounce-in-top 1s both;
     animation: bounce-in-top 1s both;
 }
+
 
 
 @-webkit-keyframes bounce-in-top{
