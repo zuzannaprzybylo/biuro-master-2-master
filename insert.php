@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="formularz.css">
+    <link rel="stylesheet" href="formularz.html">
 </head>
 <body>
 <main>
-    <section>
+<section>
 <?php
 include "db-connection.php";
 
@@ -27,7 +27,6 @@ if(isset($_POST['submit']) && !empty($_POST['submit']))
     else
     {
         echo "Twoja wiadomość została wysłana";
-
     }
 }
 
