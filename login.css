@@ -121,7 +121,6 @@ section{
 #form {
   position: relative;
   width: 500px;
-  height: 400px;
   margin: 10px auto 100px auto;
 }
 
@@ -147,29 +146,6 @@ input:hover {
   color: white;
 }
 
-textarea {
-  width: 500px;
-  max-width: 470px;
-  height: 500px;
-  max-height: 110px;
-  padding: 15px;
-  background: transparent;
-  outline: none;
-  color: #a7c5d4;
-  font-family: 'Yeseva One';
-  font-size: 20px;
-  border: solid 4px white;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-textarea:hover {
-  background: #a7c5d4;
-  color: white;
-}
-
 #submit {
   width: 508px;
   padding: 0;
@@ -181,27 +157,9 @@ textarea:hover {
   outline:none;
   cursor: pointer;
   border: solid 4px white;
-  border-top: none;
 }
 
 #submit:hover {
   color: white;
 }
 
-footer{
-  text-align: center;
-  font-size: 25px;
-  width: auto;
-  color: #a7c5d4;
-  background-color: #ffffff00;
-  padding: 5px 30px;
-}
-
-.link{
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: #a7c5d4;
-  background-color: #ffffff00;
-  padding: 5px 30px;
-}
