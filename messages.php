@@ -9,20 +9,21 @@
 </head>
 <body>
     <section>
+    
     <?php
-
-include "db-connection.php";
- if(isset($_POST['login'],$_POST['haslo'])){
+    include "db-connection.php";
+    
+    if(isset($_POST['login'],$_POST['haslo'])){
     $username=$_POST['login'];
-    $password=$_POST['haslo'];
+    $password=$_POST['hasło'];
 
     $username=stripcslashes($username);
     $password=stripcslashes($password);
 
-    $sql="SELECT * FROM uytkownicy where login='$username' and hasło='$password'";
+    $sql="SELECT * FROM użytkownicy where login='$username' and hasło='$password'";
     $result=mysqli_query($db, $sql);
-    $row=mysqli_fetch_assoc($result);
-    $count=mysqli_num_rows($result);
+    $row = mysqli_fetch_array($result);
+    $count = mysqli_num_rows($result);
 
     if($count==1){
         $_SESSION['name']=$username;
@@ -34,6 +35,7 @@ include "db-connection.php";
 ?>
 <section>
 
+
 </section>
 <h2>Wiadomości</h2>
     <?php
@@ -41,12 +43,12 @@ include "db-connection.php";
     include "db-connection.php";
 
     if(isset($_SESSION['name'])){
-    $sql="SELECT id, imie, nazwisko, tekst FROM wiadomosci";
+    $sql="SELECT id, imię, email, tekst FROM wiadomosci";
     $result=mysqli_query($db, $sql);
 
     if(mysqli_num_rows($result)>0){
         while($row=mysqli_fetch_assoc($result)){
-            echo "id: ".$row["id"]. " Name: ",$row["imie"];
+            echo "id: ".$row["id"]. " Name: ",$row["imię"]. " Email: ".$row["email"]. " Text: ".$row["tekst"]. "<br>";
         }
         }else{
             echo "Brak danych";
