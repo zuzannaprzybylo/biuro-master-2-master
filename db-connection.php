@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost", "admin1", "admin1" "baza")
+$db = mysqli_connect("192.168.64.8", "admin1", "admin1" "baza")
 
 if(!$db)
 {
